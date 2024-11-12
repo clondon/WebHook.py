@@ -3,8 +3,8 @@ var fs = require("fs");
 
 var options = {
   method: "POST",
-  hostname: "webhooks.amplify.eu-west-1.amazonaws.com",
-  path: "/prod/webhooks?id=f27d6957-be49-4666-b708-f089573dc3fb&token=rdFnrsvjZk9qGmOj25WZMW6K9KmpmJLNy98kTfzFU&operation=startbuild",
+  hostname: "webhooks.amplify.eu-region.amazonaws.com",
+  path: "/prod/webhooks?id=xxxxxxxxxxxxxxxxx&token=rxxxxxxxxxxxxxxxxxxxxxxxx&operation=startbuild",
   headers: {},
   maxRedirects: 20,
 };
